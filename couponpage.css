@@ -1,0 +1,184 @@
+header h1 {
+    font-size: 35px;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(244, 49, 49);
+    text-shadow: 2px 2px 4px black;
+}
+
+header {
+    background-color: rgb(245, 232, 219);
+}
+
+header .navbar {
+    background-color: blanchedalmond;
+    height: 40px;
+    display: flex;
+    margin: 0px 0px 15px 0px;
+}
+
+.home {
+    background-color: aqua;
+    color: black;
+    min-width: 120px;
+    max-width: 200px;
+    height: 36px;
+    border: 2px solid black;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+}
+
+.about {
+    background-color: blanchedalmond;
+    color: black;
+    min-width: 120px;
+    max-width: 200px;
+    height: 35px;
+    border: 2px solid black;
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.about a :hover,
+.home a :hover {
+    color: blue;
+}
+
+.one,
+.two {
+    display: flex;
+    height: 400px;
+    background-color: pink;
+}
+
+.one-one,
+.one-two,
+.one-three,
+.one-four,
+.two-one,
+.two-two,
+.two-three,
+.two-four {
+    flex: 1;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid brown;
+    box-shadow: 2px 2px 5px black;
+    background-color: #C1E3FF;
+    object-fit: cover;
+    object-position: center;
+}
+
+.one-one img,
+.one-two img,
+.one-three img,
+.one-four img,
+.two-one img,
+.two-two img,
+.two-three img,
+.two-four img {
+    width: 350px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.one-one p,
+.one-two p,
+.one-three p,
+.one-four p,
+.two-one p,
+.two-two p,
+.two-three p,
+.two-four p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    text-decoration: underline;
+    background-color: pink;
+}
+
+.one-one button,
+.one-two button,
+.one-three button,
+.one-four button,
+.two-one button,
+.two-two button,
+.two-three button,
+.two-four button {
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: gray;
+    color: black;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+#hidden .background {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    filter: blur(3px);
+}
+
+#hidden .hidden_two .confirm_buy {
+    padding: 3px 5px 3px 5px;
+    background-color: #E55451;
+    color: white;
+}
+
+#hidden .hidden_two {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    height: 50%;
+    padding: 5px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    background-image: url("images/backreg4.jpeg");
+}
+
+#hidden .hidden_one {
+    flex: 1;
+    height: 100%;
+    background-image: url("images/backreg4.jpeg");
+    filter: blur(8px);
+}
+
+#hidden .hidden_one img {
+    width: 100%;
+}
+
+#hidden .hidden_one {
+    background-color: white;
+}
